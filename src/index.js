@@ -14,7 +14,7 @@ module.exports = function toReadable (number) {
       return ones[number].trim(); 
     }
 
-    if (numStr.length == 2) {
+    if (numString.length == 2) {
     str += tens[+(numString[0])];
     str += ones[+(numString[1])];
       return str.trim();
